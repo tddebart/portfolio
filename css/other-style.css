@@ -1,0 +1,105 @@
+:root {
+    --csharp-color: #953dac;
+    --html-color: #f16529;
+    --python-color: #5ec9f8;
+    --other-color: #ffdd48;
+}
+
+#csharp >.lang-desc>span {
+    color: var(--csharp-color);
+}
+
+#csharp >h2 {
+    color: var(--csharp-color);
+}
+
+#htmlcss>.lang-desc>span {
+    color: var(--html-color);
+}
+
+#htmlcss >h2 {
+    color: var(--html-color);
+}
+
+#python>.lang-desc>span {
+    color: var(--python-color);
+}
+
+#python >h2 {
+    color: var(--python-color);
+}
+
+#others>.lang-desc>span {
+    color: var(--other-color);
+}
+
+#others >h2 {
+    color: var(--other-color);
+}
+
+.projects.csharp>.proj.loaded::before {
+    border-top-color: var(--csharp-color);
+    border-right-color: var(--csharp-color);
+}
+
+.projects.csharp>.proj.loaded::after {
+    border-bottom-color: var(--csharp-color);
+    border-left-color: var(--csharp-color);
+}
+
+.projects.htmlcss>.proj.loaded::before {
+    border-top-color: var(--html-color);
+    border-right-color: var(--html-color);
+}
+
+.projects.htmlcss>.proj.loaded::after {
+    border-bottom-color: var(--html-color);
+    border-left-color: var(--html-color);
+}
+
+.projects.python>.proj.loaded::before {
+    border-top-color: var(--python-color);
+    border-right-color: var(--python-color);
+}
+
+.projects.python>.proj.loaded::after {
+    border-bottom-color: var(--python-color);
+    border-left-color: var(--python-color);
+}
+
+.projects.others>.proj.loaded::before {
+    border-top-color: var(--other-color);
+    border-right-color: var(--other-color);
+}
+
+.projects.others>.proj.loaded::after {
+    border-bottom-color: var(--other-color);
+    border-left-color: var(--other-color);
+}
+
+#modal.csharp, #modal.csharp>.close {
+    border-color: var(--csharp-color);
+}
+
+#modal.htmlcss, #modal.htmlcss>.close {
+    border-color: var(--html-color);
+}
+
+#modal.python, #modal.python>.close {
+    border-color: var(--python-color);
+}
+
+#modal.others, #modal.others>.close {
+    border-color: var(--other-color);
+}
+
+/*.info {*/
+/*    position: absolute;*/
+/*    !*margin-top: 15vh;*!*/
+/*    left: 50%;*/
+/*    transform: translateY(-50%) translateX(-50%);*/
+/*    text-align: center;*/
+/*    vertical-align: middle;*/
+/*    line-height: 65vw;*/
+/*    margin-top: 10vw;*/
+/*}*/
