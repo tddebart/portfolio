@@ -1,9 +1,0 @@
-{
-  "name": "portfolio",
-  "version": "1.0.0",
-  "type": "module",
-  "dependencies": {
-    "@octokit/core": "^3.5.1",
-    "load-json-file": "^7.0.1"
-  }
-}

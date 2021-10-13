@@ -29,10 +29,10 @@ let initGlobe = () => {
     animate();
     fetch('https://ip-api.io/json').then(r => r.text()).then(r => {
         let loc = JSON.parse(r);
-        globe.addMarker(loc.latitude, loc.longitude, loc.ip);
-        fetch('https://ip-api.io/json/81.207.121.216').then(r => r.text()).then(r => {
-            let loc2 = JSON.parse(r);
-            globe.addMarker(loc2.latitude, loc2.longitude, loc2.ip, Math.abs(loc.lon - loc2.lon) > 25);
+        globe.addMarker(loc.lat, loc.lon, loc.query);
+        fetch('https://ip-api.io/json/81.207.121.216').then(r => r.text()).then(() => {
+            // let loc2 = JSON.parse(r);
+            globe.addMarker(51.805, 4.665, "81.207.121.216", Math.abs(loc.lon - 4.665) > 10);
         });
     });
     var constellation = [];
