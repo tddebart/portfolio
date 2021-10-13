@@ -1,5 +1,9 @@
 {
+  "name": "portfolio",
+  "version": "1.0.0",
+  "type": "module",
   "dependencies": {
-    "encom-globe-fixed": "^0.0.4"
+    "@octokit/core": "^3.5.1",
+    "load-json-file": "^7.0.1"
   }
 }

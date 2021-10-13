@@ -1,8 +1,17 @@
 :root {
+    --me-color: #20cbb7;
     --csharp-color: #953dac;
     --html-color: #f16529;
     --python-color: #5ec9f8;
     --other-color: #ffdd48;
+}
+
+#me >.lang-desc>span {
+    color: var(--me-color);
+}
+
+#me >h2 {
+    color: var(--me-color);
 }
 
 #csharp >.lang-desc>span {

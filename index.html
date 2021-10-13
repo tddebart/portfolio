@@ -16,6 +16,7 @@
 
     <!-- data-->
     <script src="js/project_data.js"></script>
+    <script src="key.js"></script>
 
     <!-- globe-->
     <script src="encom-globe.min.js"></script>
@@ -27,7 +28,7 @@
     <h1 id="intro">{ }</h1>
 
     <div id="main">
-        <h2>Welcome to my portfolio my name is Thomas de Bart</h2>
+        <h2>Welcome to my portfolio my name is Thomas de Bart, <span class="lang-button" style="color:#20cbb7;" data-panel="me">about me<span class="underline" style="background-color:#20cbb7;"></span></span>.</h2>
         <h2>I'm a <span id="age"></span> year-old software developer who likes to code.</h2>
         <h2>I mainly use
             <span class="lang-button" style="color:#953dac;" data-panel="csharp">C#<span class="underline" style="background-color:#953dac;"></span></span>,
@@ -43,6 +44,12 @@
             <path id="rectleft"></path>
             <path id="rectright"></path>
         </svg>
+
+        <div id="me" class="lang-panel">
+            <h2>About me</h2>
+            <h3 class="lang-desc">I am <span>Thomas de Bart</span> and I live in the <span>Netherlands</span>. Currently I'm still in <span>school</span>, learning the teachers more about <span>coding</span> then they have taught me. For 15 years of my life I lived in a tiny village, but now I live in the city of Dordrecht meeting a lot of new people.
+            I am enjoying it here and very happy about my life</h3>
+        </div>
 
         <div id="csharp" class="lang-panel">
             <h2><a href="https://docs.microsoft.com/en-us/dotnet/csharp/" target="_blank">C#</a></h2>
@@ -93,16 +100,15 @@
                 <div data-proj="the-game" class="proj" style="background-image: url(img/game.png)">
                     <h3>The game</h3>
                 </div>
-                <div data-proj="more" class="proj" style="background-image: url(img/github.png)">
-                    <h3>And more on my github</h3>
+                <div data-proj="more" class="proj" style="background-image: url(img/GitHub-Mark-Light-120px-plus.png)">
+                    <h3>Find more on my github</h3>
                 </div>
             </div>
         </div>
 
         <div id="others" class="lang-panel">
             <h2>Other skills</h2>
-            <h3 class="lang-desc">I've also worked in <span>Rust</span> and a little in <span>C++</span> (although
-                i have not created anything with <span>C++</span>).</h3>
+            <h3 class="lang-desc">I've also worked in <span>Rust</span> and a little in <span>C++</span>.</h3>
             <div class="projects others" data-cat="others">
                 <div data-proj="gol-wasm" class="proj" style="background-image: url(img/life.png)">
                     <h3>Game of life with wasm</h3>
@@ -134,5 +140,6 @@
     <script type="text/javascript" src="js/age.js"></script>
     <script type="text/javascript" src="js/langs.js"></script>
     <script type="text/javascript" src="js/globe.js"></script>
+    <script type="text/javascript" src="js/last-seen.js"></script>
 </body>
 </html>
