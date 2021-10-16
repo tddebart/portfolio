@@ -21,6 +21,11 @@ const ProjectData = {
         github: "https://tddebart.github.io/Tetris/",
         description: "This is a simple tetris with basic holding next block preview, made this in a couple days."
     },
+    "pathfinding": {
+        title: "Pathfinder visualizer",
+        github: "https://github.com/tddebart/better-pathfinding-visualizer",
+        description: "A cool website I made to learn how to use the HTML canvas and pathfinding algorithms"
+    },
     "portfolio": {
         title: "Portfolio",
         github: "https://github.com/tddebart/portfolio",
