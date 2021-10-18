@@ -23,7 +23,7 @@ const ProjectData = {
     },
     "pathfinding": {
         title: "Pathfinder visualizer",
-        github: "https://github.com/tddebart/better-pathfinding-visualizer",
+        github: "https://tddebart.github.io/better-pathfinding-visualizer/",
         description: "A cool website I made to learn how to use the HTML canvas and pathfinding algorithms"
     },
     "portfolio": {
