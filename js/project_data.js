@@ -21,6 +21,11 @@ const ProjectData = {
         github: "https://tddebart.github.io/Tetris/",
         description: "This is a simple tetris with basic holding next block preview, made this in a couple days."
     },
+    "babu": {
+        title: "Pathfinder visualizer",
+        github: "https://tddebart.github.io/babu-is-you/",
+        description: 'A recreation of the game "Baba is you". This was a challenging project where i needed to learn a lot of new things about the HTML canvas and making the rules work'
+    },
     "pathfinding": {
         title: "Pathfinder visualizer",
         github: "https://tddebart.github.io/better-pathfinding-visualizer/",
