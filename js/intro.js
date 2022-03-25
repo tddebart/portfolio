@@ -1,5 +1,5 @@
 let header = document.querySelector('#intro');
-let skip = false;
+let skip = true;
 let frames = [
     { t: "{ }", ms: 200 },
     { t: "{_}", ms: 200 },

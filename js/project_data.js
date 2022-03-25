@@ -1,4 +1,9 @@
 const ProjectData = {
+    "minecraft": {
+        title: "Minecraft clone",
+        github: "https://github.com/tddebart/Minecraft-Unity",
+        description: "An as accurate recreation of Minecraft that i can make, I'm still working on this project so it's not finished yet.",
+    },
     "rounds_mods": {
         title: "Rounds mods",
         github: "https://github.com/tddebart/BossSlothsMods",
@@ -7,7 +12,7 @@ const ProjectData = {
     "unity": {
         title: "Unity",
         github: "https://unity.com/",
-        description: "Unity is not something i have made but something i have worked with a lot. I don't have any of my unity projects on github mostly because they are very old and made before i had a github."
+        description: "Unity is not something i have made but something i have worked with a lot. A lot of my old Unity projects are not on github mostly because they where made before i knew of github"
     },
     "mastermind": {
         title: "Mastermind",
@@ -40,11 +45,6 @@ const ProjectData = {
         title: "2048",
         github: "https://tddebart.github.io/2048/",
         description: "A simple recreating of the game 2048."
-    },
-    "gol-wasm": {
-        title: "Game of life with webassembly",
-        github: "https://github.com/tddebart/better-wasm-game-of-life",
-        description: "This has been one of my bigger projects since i needed to learn rust for this. Resources: <a href=\"https://rustwasm.github.io/docs/book/\">https://rustwasm.github.io/docs/book/</a>."
     },
 
 
