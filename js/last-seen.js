@@ -47,15 +47,15 @@ function updateSeen() {
         }}).then(r => r.text()).then(r => {
         let loc = JSON.parse(r);
         for (const l of loc) {
-            if(new Date(l.updated_at).getTime() > lowestTime) {
-                lowestTime = new Date(l.updated_at).getTime()
+            if(new Date(l.pushed_at).getTime() > lowestTime) {
+                lowestTime = new Date(l.pushed_at).getTime()
                 recentRepo = l;
             }
 
         }
         if(recentRepo !== undefined) {
             seenEl.innerHTML = 'I was last seen working on <a href="{0}" class="d" target="_blank"\n'.format(recentRepo.html_url) +
-                'style="color:#949494;">{0}<span class="underline" style="background-color:#949494;"></span></a>'.format(recentRepo.name) + " {0} ago.".format(timeSince(new Date(recentRepo.updated_at)))
+                'style="color:#949494;">{0}<span class="underline" style="background-color:#949494;"></span></a>'.format(recentRepo.name) + " {0} ago.".format(timeSince(new Date(recentRepo.pushed_at)))
         } else {
             seenEl.innerHTML = "I'm not working on anything right now."
         }
