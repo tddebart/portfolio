@@ -2,7 +2,7 @@ const ProjectData = {
     "minecraft": {
         title: "Minecraft clone",
         github: "https://github.com/tddebart/Minecraft-Unity",
-        description: "An as accurate recreation of Minecraft that i can make, I'm still working on this project so it's not finished yet.",
+        description: "An as exact as possible recreation of Minecraft that i can make, I'm still working on this project so it's not finished yet.",
     },
     "rounds_mods": {
         title: "Rounds mods",
