@@ -19,6 +19,11 @@ const ProjectData = {
         github: "https://github.com/tddebart/Mastermind/",
         description: "Mastermind was a challenge i got from my teachers to see what i could do in C# this was also my first Windows Forms project."
     },
+    "autobattler": {
+        title: "Autobattler",
+        github: "https://github.com/tddebart/Autobattler",
+        description: "AutoBattler is a recreation of a game called " + '"Super Auto Pets"' + ". I made this project to learn more about how node.js servers work and how to make a server with node.js."
+    },
 
 
     "tetris": {
@@ -45,6 +50,11 @@ const ProjectData = {
         title: "2048",
         github: "https://tddebart.github.io/2048/",
         description: "A simple recreating of the game 2048."
+    },
+    "lock": {
+        title: "Pop a lock",
+        github: "https://tddebart.github.io/PopALock/",
+        description: "A simple recreating of the arcade game Pick a lock"
     },
 
 
